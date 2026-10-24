@@ -1,15 +1,22 @@
 # Brainrot Mayhem Policies
 
-This repository is configured to host the public policy pages for the game using **GitHub Pages**.
+Public policy pages for the game, served by **GitHub Pages** (Settings → Pages →
+Deploy from a branch → `main` / `/ (root)`).
 
 ## Pages URL
 
-After enabling GitHub Pages in repository settings (Deploy from a branch, `main`/`root` or current default branch/root), the site URL is:
-
-`https://gustavofucilini.github.io/brainrot-mayhem-policies/`
+`https://whalecoderz.github.io/brainrot-mayhem-policies/`
 
 ## Policy pages
 
 - Home: `/`
-- Privacy Policy: `/privacy-policy.html`
+- Privacy Policy (pt-BR): `/privacidade.html`
+- Privacy Policy (en): `/privacy-policy.html` (the URL for the Play Console)
 - Terms of Service: `/terms-of-service.html`
+
+## Keeping the policy true
+
+The privacy policy describes what the game actually sends. Update both
+languages and the "last updated" date before a release that adds an SDK, a
+new kind of data, a device permission, notifications or in-app purchases.
+The Play Console's Data safety form must match these pages.
